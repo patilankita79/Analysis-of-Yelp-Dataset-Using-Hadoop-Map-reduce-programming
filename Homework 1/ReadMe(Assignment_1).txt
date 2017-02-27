@@ -63,7 +63,7 @@ Question 3
 	hadoop jar TopRatedBusinessData.jar BigData.TopRatedBusinessData <location of review.csv> <location of business.csv> /outputTBD1_v9/ /outputTBD2_v9/
 
 	I ran the program on UTD's hadoop cluster using following command in the directory => /NameOfTheDirectory/
-        hadoop jar TopRatedBusinessData.jar BigData.TopRatedBusinessData /NameOfTheDirectory/review.csv /asp160730/business.csv /NameOfTheDirectory/outputTBD1_v9/ /asp160730/outputTBD2_v9/
+        hadoop jar TopRatedBusinessData.jar BigData.TopRatedBusinessData /NameOfTheDirectory/review.csv /asp160730/business.csv /NameOfTheDirectory/outputTBD1_v9/ /NameOfTheDirectory/outputTBD2_v9/
   
   (3)To display the contents of an output file
     
@@ -86,7 +86,7 @@ Question 4
 	hadoop jar UsersAndRating.jar BigData.UsersAndRating <location of review.csv> <location of business.csv> /outputUsersAndRating_v4/
 
 	I ran the program on UTD's hadoop cluster using following command in the directory => /NameOfTheDirectory/
-	hadoop jar UsersAndRating.jar BigData.UsersAndRating /asp160730/review.csv /NameOfTheDirectory/business.csv /NameOfTheDirectory/outputUsersAndRating_v4/
+	hadoop jar UsersAndRating.jar BigData.UsersAndRating /NameOfTheDirectory/review.csv /NameOfTheDirectory/business.csv /NameOfTheDirectory/outputUsersAndRating_v4/
 
  (3)To display the contents of an output file
     
