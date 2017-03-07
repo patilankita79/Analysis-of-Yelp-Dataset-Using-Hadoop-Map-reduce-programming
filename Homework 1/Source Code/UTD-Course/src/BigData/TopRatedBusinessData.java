@@ -137,7 +137,7 @@ public class TopRatedBusinessData {
 	
 	/*
 	 * Job 2, Mapper 1
-	 * This  mapper class TopTenRatedBusinessRatingMapper parses the input from reducer of job 1 
+	 * This  mapper class TopTenRatedBusinessRatingMapper parses the output from reducer of job 1 
 	 * This class emits all business Id's and average rating appended with T1
 	 */
 	public static class TopTenRatedBusinessRatingMapper extends Mapper<LongWritable, Text, Text, Text> {
